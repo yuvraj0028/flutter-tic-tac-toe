@@ -1,16 +1,32 @@
-# tic_tac_toe
+# Flutter TIC-TAC-TOE Game
+Looking for an interactive game? This game got you covered.
 
-A new Flutter project.
+## Run Locally
 
-## Getting Started
+Clone the project
 
-This project is a starting point for a Flutter application.
+```bash
+  git clone https://github.com/yuvraj0028/tic_tac_toe.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+Go to the project directory
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+  cd tic_tac_toe
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Run App
+
+```bash
+  flutter run
+```
+
+## Screenshots
+
+<img src="https://github.com/yuvraj0028/tic_tac_toe/assets/96447724/93297046-c033-4402-a2b7-99fc0124499c" width="200" height="400" /> <img src="https://github.com/yuvraj0028/tic_tac_toe/assets/96447724/1a83e4fe-3677-4fbc-b0bb-4270456f8a2a" width="200" height="400" /> <img src="https://github.com/yuvraj0028/tic_tac_toe/assets/96447724/0073e5dd-ff45-42b4-854f-9b75ea1da526" width="200" height="400" /> <img src="https://github.com/yuvraj0028/tic_tac_toe/assets/96447724/5224587e-c075-49a5-96f1-033ca6745e9e" width="200" height="400" /> <img src="https://github.com/yuvraj0028/tic_tac_toe/assets/96447724/73712afd-6d4b-4ef7-858b-f4c78d279201" width="200" height="400" />
