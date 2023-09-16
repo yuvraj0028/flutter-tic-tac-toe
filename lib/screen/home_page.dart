@@ -154,11 +154,13 @@ class _HomePageState extends State<HomePage> {
       if (oTurn && elements[index] == '') {
         elements[index] = 'O';
         filledBoxes++;
+        oTurn = !oTurn;
       } else if (!oTurn && elements[index] == '') {
         elements[index] = 'X';
         filledBoxes++;
+        oTurn = !oTurn;
       }
-      oTurn = !oTurn;
+
       checkWinner();
     });
   }
