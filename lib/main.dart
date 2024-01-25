@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     final lightTheme = ThemeData(
+      useMaterial3: false,
       colorScheme: ColorScheme.fromSwatch().copyWith(
         primary: Colors.indigo[400],
         secondary: Colors.red[200],
@@ -79,6 +80,7 @@ class _MyAppState extends State<MyApp> {
     );
 
     final darkTheme = ThemeData(
+      useMaterial3: false,
       scaffoldBackgroundColor: Colors.black,
       colorScheme: ColorScheme.fromSwatch().copyWith(
         primary: Colors.indigo[400],
